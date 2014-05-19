@@ -25,7 +25,8 @@ body {
   margin-right: 10px; }
 
 #secondVideo {
-  float: none; }
+  float: none;
+  display: inline-block; }
 
 #portfolio .row {
   margin: 0 auto;
