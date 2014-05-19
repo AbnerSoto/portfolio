@@ -7,7 +7,7 @@ body {
 
 #header {
   width: 100%;
-  background: url(img/sunrise.jpg) center top no-repeat;
+  background: url("img/sunrise.jpg") center top no-repeat;
   margin: 0 auto;
   padding-bottom: 30px; }
 
@@ -20,7 +20,8 @@ body {
 
 .videoWrapper {
   width: 500px;
-  height: 281px; }
+  height: 281px;
+  float: left; }
 
 #portfolio .row {
   margin: 0 auto;
