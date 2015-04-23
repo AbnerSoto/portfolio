@@ -1,0 +1,138 @@
+/*********************
+Navigation
+**********************/
+#header {
+      padding: 20px;
+      background-color: #FFF1F4;
+}
+.addImg {
+      margin-bottom: 20px;
+}
+
+/*********************
+Navigation
+**********************/
+#mainContent {
+      margin-top: 20px;
+}
+#mm-nav {
+	background-color: #F36388;
+	min-height: 43px;
+}
+#mm-nav .navbar-nav .active a {
+	background-color: #F98AA6;
+}
+#mm-nav li a {
+	line-height: 12px;
+	color: #FFF;
+}
+#mm-nav li {
+	border-right: 1px solid #F53C6C;
+}
+#mm-nav a:hover {
+	background-color: #F9A8BC;
+}
+#mm-nav #active {
+	background-color: #9E2040;
+}
+/*********************
+SOCIAL BUTTONS
+**********************/
+.social-btn {
+	margin-right: 10px;
+}
+.social1 {
+	margin-top: 5px;
+}
+.social3 {
+	margin-top: 1px;
+}
+.social4 {
+	margin-top: 3px;
+}
+/*********************
+FLOATING ADDS SIDEBAR
+**********************/
+#mainContent .panel {
+      padding: 20px;
+}
+
+/*********************
+FLOATING ADDS SIDEBAR
+**********************/
+#adds {
+    position: relative;
+  }
+  #adds.fixed {
+    position: fixed;
+    left: 50%;
+    margin-left: 288px;
+    top: 0;
+  }
+/*********************
+MOTHERHOOD NAVIGATION
+**********************/
+#motherhood-nav {
+	padding-bottom: 25px;
+}
+#motherhood-nav li {
+	margin-right: 2px;
+}
+#motherhood-nav li a {
+	color: #FFF;
+	font-size: .92em;
+}
+#motherhood-nav li.item-1 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -5px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-2 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -52px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-3 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -100px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-4 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -147px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-5 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -194px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-6 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -242px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+
+
+/*********************
+Footer
+**********************/
+#mm-footer {
+	background-color: #FFF1F4;
+}
+#mm-footer li a {
+	color: blue;
+	text-decoration: underline;
+}

@@ -1,0 +1,330 @@
+/*********************
+PAGE
+**********************/
+html {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+@media all and (max-width: 700px) {
+	body {
+		padding: 0;
+	}
+}
+body {
+	background: url(../images/whiteBurstBG.jpg) center #FFF1F4;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+img.pull-left {
+	margin-right: 10px;
+}
+img.pull-right {
+	margin-left: 10px;
+}
+.centerText {
+	text-align: center;
+}
+
+/*********************
+HEADER
+**********************/
+#header {
+    background-color: #FFF1F4;
+    padding: 20px 0;
+}
+#header .container {
+	padding-right: 0;
+}
+.addImg {
+      margin-bottom: 20px;
+}
+#headerAdd {
+	padding-right: 0;
+}
+	/*header mobile*/
+@media all and (max-width: 1000px) {
+	#header {
+	padding: 0;
+}
+}
+@media all and (max-width: 1000px) {
+	#header .container{
+	padding-right: 15px;
+	padding-left: 0;
+}
+}
+@media all and (max-width: 1000px) {
+	#header img {
+	padding: 0;
+}
+}
+/*********************
+NAVIGATION
+**********************/
+#mainContent {
+      margin-top: 20px;
+}
+#mm-nav {
+	background-color: #F36388;
+	min-height: 43px;
+}
+#mm-nav .navbar-nav .active a {
+	background-color: #F98AA6;
+}
+#mm-nav li a {
+	line-height: 12px;
+	color: #FFF;
+}
+#mm-nav li {
+	border-right: 1px solid #F53C6C;
+}
+#mm-nav a:hover {
+	background-color: #F9A8BC;
+}
+#mm-nav #active {
+	background-color: #9E2040;
+}
+/*********************
+SOCIAL BUTTONS
+**********************/
+.social-btn {
+	margin-right: 10px;
+}
+.social1 {
+	margin-top: 5px;
+}
+.social3 {
+	margin-top: 1px;
+}
+.social4 {
+	margin-top: 3px;
+}
+/*********************
+MAIN PANEL
+**********************/
+.panelTitle {
+	margin-top: 0;
+}
+#mainContent .row {
+	padding: 0;
+}
+#mainContent .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+#mainContent .col-md-9 {
+	padding: 0;
+}
+
+#mainContent .panel-heading {
+	background-color: #F7FFFD;
+
+}
+#mainContent .panel-footer {
+	background-color: #F7FFFD;
+}
+.panel-default h1 {
+	color: #eb2e61;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.smallBox {
+	height: 180px;
+}
+.contestBox h3 {
+	color: #F36388;
+	text-decoration: underline;
+}
+.contestBox img {
+	margin-bottom: 5px;
+}
+	/*mainpanel mobile*/
+@media all and (max-width: 1000px) {
+	#mainContent .row {
+		margin: 0;
+}
+}
+@media all and (max-width: 1000px) {
+	#mainContent {
+		padding: 0;
+	}
+}
+@media all and (max-width: 500px) {
+	#mainContent .panel-default {
+      padding: 0;
+      border: none;
+      margin: 0;
+}
+}
+
+
+/*********************
+FLOATING ADDS SIDEBAR
+**********************/
+#adds {
+    position: relative;
+}
+#adds.fixed {
+    position: fixed;
+    left: 50%;
+    margin-left: 304px;
+    top: 0;
+}
+.add4 {
+	margin-top: 20px;
+}
+#adds {
+	z-index: 1;
+}
+.subscribeForm {
+	width: 100%;
+}
+.subscribeLogo {
+}
+.subscribeText {
+	margin-bottom: 10px;
+	font-family: Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	font-size: 10px;
+	color: #999999; 
+}
+/*********************
+MOTHERHOOD NAVIGATION
+**********************/
+#mm-nav .container {
+	padding: 0;
+}
+#mm-nav .navbar-collapse {
+	padding: 0;
+}
+#motherhood-nav {
+	padding-bottom: 25px;
+}
+#motherhood-nav li {
+	margin-right: 2px;
+}
+#motherhood-nav li a {
+	color: #FFF;
+	font-size: .92em;
+}
+#motherhood-nav li.item-1 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -5px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-2 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -52px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-3 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -100px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-4 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -147px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-5 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -194px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+#motherhood-nav li.item-6 a {
+	background: url('http://sunshine.modernmom.com/media/images/left-nav.png') no-repeat 0px -242px;
+	
+	height: 40px;
+	padding-left: 41px;
+	padding-top: 10px;
+}
+@media all and (max-width: 1000px){
+	#motherhood-nav .navbar-nav {
+		margin: 0;
+	}
+}
+@media all and (max-width: 1000px){
+	#motherhood-nav .container {
+		margin: 0;
+		padding-left: 10px
+	}
+}
+/*********************
+More Articles Slider
+**********************/
+.articleViewPort {
+	height: 240px;
+	width: 786px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+}
+.articleViewPort ul {
+	margin-left: -33px;
+	position: relative;
+	width: 20000px;
+}
+
+
+#articleCycle li {
+	float: left;
+	list-style: none;
+	width: 180px;
+	margin-right: 20px;
+	border-right: 1px solid #DDDDDD;
+}
+#articleCycle li h5 {
+	text-align: center;
+}
+#articleCycle .lastArticle {
+	margin-right: 0;
+	border: none;
+}
+.arrow {
+	width: 40px;
+	height: 40px;
+	margin-top: 85px;
+	position: absolute;
+	display: none;
+	cursor: pointer;
+}
+.left-arrow {
+	background: url(../images/arrow-left.png) no-repeat center;
+	left: 2%;
+}
+.right-arrow {
+	background: url(../images/arrow-right.png) no-repeat center;
+	right: 2%;
+}
+.articleViewPort .arrow.active {
+	display: block;
+}
+
+/*********************
+Footer
+**********************/
+#mm-footer {
+	background-color: #F7FFFD;
+}
+#mm-footer li a {
+	color: blue;
+	text-decoration: underline;
+}

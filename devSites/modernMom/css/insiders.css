@@ -1,0 +1,72 @@
+#wrapper {
+	margin: 0 auto;
+}
+
+#mainBody {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/************  header **********************/
+
+
+
+
+/************  Navigation **********************/
+#navigation {
+	margin-bottom: 0;
+}
+
+#highlighted .col-md-6 {
+	margin-top: 10%
+}
+
+#highlighted .col-md-6 img {
+	display: block;
+	margin:0 auto;
+}
+
+#highlighted {
+	width: 100%;
+	height: 49%;
+	background: url("../images/twitterBackground.jpg") center top repeat-x ;
+}
+
+
+#highlighted .btn-primary {
+	background-color: #ff7c9b;
+	border-color: #ea2b5f;
+}
+#main-btn {
+	display: block;
+	margin: 0 auto;
+}
+
+
+#mainBody .col-md-6 {
+	display: block;
+	margin:0 auto;
+	padding: 1%;
+}
+#mainBody .col-md-6 {
+	margin: 5% 0px;
+}
+#mainBody .col-md-6 p {
+	text-align: center;
+}
+#mainBody h1 {
+	text-align: center;
+	color: #ec517b;
+	margin-top: 10%;
+}
+
+@media all and (max-width: 1000px) {
+	#highlighted .col-md-6 {
+		margin-top: 0;
+	}
+}
+@media all and (max-width: 1000px) {
+	#mmLogo {
+	margin-top: 0;
+}
+}
