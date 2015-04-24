@@ -5,9 +5,19 @@ body {
   background: #000;
   color: white; }
 
+.navbar-inverse .navbar-nav li {
+  font-size: 20px; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #254d50 !important; }
+
 #header {
   width: 100%;
   background: url("../img/sunrise.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin: 0 auto;
   padding-bottom: 30px; }
 
@@ -47,3 +57,5 @@ GALLERY PAGE
 #gallery #headerInfo {
   height: 200px;
   padding: 0 10px; }
+
+/*# sourceMappingURL=style.css.map */
